@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>मेरी पहली वेबसाइट</title>
+  <style>
+    /* Background */
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1950&q=80') 
+                  no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 3rem;
+      animation: fadeIn 2s ease-in-out;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      line-height: 1.6;
+      opacity: 0.9;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    a {
+      color: #00eaff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <a href="Exam.html"> Exam
+  <h1>🌸  🌸</h1>
+  <p>यह एक साधारण लेकिन आकर्षक HTML पेज है,  
+     जो GitHub Pages के ज़रिए इंटरनेट पर लाइव होगा।  
+     इसे देखकर आपको पता चलेगा कि HTML से शुरुआत कितनी आसान है!</p>
+
+  <footer>
+    Created by <a href="https://github.com/your-username" target="_blank">Your Name</a>
+  </footer>
+</body>
+</html>
